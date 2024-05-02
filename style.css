@@ -60,7 +60,7 @@ body {
 }
 
 .profile-picture img {
-  border-radius: 50%; /* Circular profile image */
+  border-radius: 
   width: 100px; /* Consistent size */
   height: 100px;
   object-fit: cover; /* Ensure proper fit */
