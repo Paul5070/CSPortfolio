@@ -1,0 +1,101 @@
+/* Base Colors */
+:root {
+  --primary-blue: #2d7eb8;
+  --secondary-blue: #4f98c4;
+  --accent-blue: #889ece;
+  --dark-gray: #333;
+  --light-gray: #7d7474;
+  --white: #d4d2de;
+  --background-gray: #9590a6; /* A soft gray for overall background */
+}
+
+/* Body Style */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-gray); /* Ensure the body has a background */
+  color: var(--dark-gray);
+  font-family: Arial, sans-serif;
+}
+
+/* Portfolio Wrapper */
+.portfolio-wrapper {
+  background-color: var(--background-gray); /* Consistent background for the whole site */
+  padding: 20px;
+}
+
+/* Portfolio Container */
+.portfolio-container {
+  max-width: 800px;
+  margin: 0 auto; /* Center the content */
+  padding: 20px;
+  background-color: var(--white);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: var(--primary-blue);
+  color: var(--white);
+  padding: 10px;
+  display: flex;
+  justify-content: space-around; /* Spread links evenly */
+}
+
+.navbar a {
+  color: var(--white);
+  text-decoration: none; /* No underline for links */
+}
+
+.navbar a:hover {
+  color: var(--accent-blue);
+}
+
+/* Portfolio Header */
+.portfolio-header {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.profile-picture img {
+  border-radius: 50%; /* Circular profile image */
+  width: 100px; /* Consistent size */
+  height: 100px;
+  object-fit: cover; /* Ensure proper fit */
+  margin-right: 20px; /* Spacing */
+}
+
+.profile-info h1, .profile-info h2 {
+  margin: 0;
+}
+
+/* Sections */
+section {
+  padding: 20px 0;
+}
+
+.about-me h2,
+.projects h2,
+.contact h2 {
+  color: var(--primary-blue); /* Consistent section header color */
+}
+
+.about-me p,
+.projects p,
+.contact p {
+  color: var(--dark-gray); /* Consistent paragraph color */
+}
+
+/* Footer */
+.footer {
+  background-color: var(--dark-gray);
+  color: var(--light-gray);
+  text-align: center;
+  padding: 20px;
+  border-radius: 0 0 10px 10px; /* Smooth finish */
+}
+
+
+
