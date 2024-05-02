@@ -60,7 +60,7 @@ body {
 }
 
 .profile-picture img {
-  border-radius: 
+  border-radius: 0;
   width: 100px; /* Consistent size */
   height: 100px;
   object-fit: cover; /* Ensure proper fit */
